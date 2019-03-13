@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="calendar">Calendar</string>
+    <string name="bear">Servicios de Barba</string>
+    <string name="premium">Servicios Premium</string>
+    <string name="peluqueria">Peluqueria</string>
+    <string name="servicio"><![CDATA[Servicio Completo (CORTE & BARBA )]]></string>
+    <string name="servicioExtras">Servicios Extras</string>
+    <string name="faciales">Tratamientos Faciales</string>
+    <string name="tintes"><![CDATA[Tintes (CABELLO & BARBA )]]></string>
+</resources>

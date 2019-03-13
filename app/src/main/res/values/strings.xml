@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Barbaros</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="calendar">appointments</string>
+    <string name="bear">Servicios Barba</string>
+    <string name="premium">Servicios Premium</string>
+    <string name="peluqueria">Peluqueria</string>
+    <string name="servicio"><![CDATA[Servicio Completo (CORTE & BARBA )]]></string>
+    <string name="servicioExtras">Servicios Extras</string>
+    <string name="faciales">Tratamientos Faciales</string>
+    <string name="tintes"><![CDATA[Tintes (CABELLO & BARBA )]]></string>
+    <string name="title_activity_premium">PremiumActivity</string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainMenuActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar_layout"
+        android:orientation="vertical"
+        android:layout_margin="2dp">
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/barba"/>
+
+            <TextView
+                android:id="@+id/barba"
+                style="@style/Category_style"
+                android:text="@string/bear"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/premium"/>
+
+            <TextView
+                android:id="@+id/premium"
+                style="@style/Category_style"
+                android:text="@string/premium"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/barba"/>
+
+            <TextView
+                android:id="@+id/peluqueria"
+                style="@style/Category_style"
+                android:text="@string/peluqueria"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/barba"/>
+
+            <TextView
+                android:id="@+id/servicio"
+                style="@style/Category_style"
+                android:text="@string/servicio"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/barba"/>
+
+            <TextView
+                android:id="@+id/extras"
+                style="@style/Category_style"
+                android:text="@string/servicioExtras"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/barba"/>
+
+            <TextView
+                android:id="@+id/faciales"
+                style="@style/Category_style"
+                android:text="@string/faciales"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/horizontalLine">
+
+            <ImageView
+                style="@style/imageHorizontalLineal"
+                android:src="@drawable/barba"/>
+
+            <TextView
+                android:id="@+id/tinte"
+                style="@style/Category_style"
+                android:text="@string/tintes"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
